@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teen Wishes Website</title>
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
+</head>
+<body>
+    <!-- ===============NavBar=============================-->
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                     <!-- nav left-->
+                    <nav class="nav-menu">
+                        <ul class="nav-links">
+                            <li> <a href="#">Shop</a></li>
+                            <li> <a href="#">About</a></li>
+                            <li> <a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- nav center -->
+                    <div class="nav-brand">
+                         <a href="index.html" class="logo"><img src="images/logo.JPG" alt="Teens Wishes"></a>
+                    </div>    
+            
+            
+                     <!-- nav right-->
+                    <div class="nav-action">
+                        <a href="#" class="icon">
+                            <i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="#" class="icon">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </header> 
+    <!--==============Hero section===================-->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-card">
+                <div class="hero-img">
+                    <img src="images/tops/CPT/main.JPG" alt="collection">
+                </div>
+                <div class="hero-content">
+                    <h2>TEENS WISHES</h2>
+                    <p>Comfort • Softness • Colorful Everyday Feminine Life</p>
+                    <p>နေ့စဉ်ဘဝအတွက် နူးညံ့သက်တောင့်သက်သာမှုနှင့် အရောင်အသွေးစုံလင်မှု </p>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <!--==============Products section=============-->
+        <section id="shop">
+            <div class="container">
+                <div id="category-tabs">
+                    <button data-category="all" class="category-btn">All Products</button>
+                    <button data-category="tops" class="category-btn">Tops</button>
+                    <button data-category="bottoms" class="category-btn">Bottoms</button>
+                    <button data-category="dresses" class="category-btn">Dresses</button>
+                    <button data-category="sets" class="category-btn">Sets</button>
+                </div>
+                <div class="shop-toolbar">
+                    <p>Sort: <strong>featured</strong></p>
+                    <p> <span id="productCount">0</span> products</p>
+                </div>
+                <div id="productsGrid" class="products-grid"></div>
+            </div>
+        </section> 
+    
+    
+    
+    <script src="js/products.js"></script>
+    <script src="js/cards.js"></script>
+    <script src="js/main.js"></script>
+  
+</body>
+</html>
+

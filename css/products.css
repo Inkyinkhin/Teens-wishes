@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    color: #2d4c5c; 
+}
+
+a {
+    color: #2d4c5c; 
+}
+
+ul, p, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+/* container for all */
+.container{
+    padding: 0 20px;
+  
+}
+
+/* Header and its transparent*/
+
+header {
+  
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    
+}
+/* .header.transparent .navbar {
+    background: transparent;
+    border: #666;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+}
+.header.scrolled .navbar {
+    background: rgba(243, 244, 232, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+} */
+
+
+/* navbar and its children */
+.navbar {
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 20px;
+    padding: 0 10px;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    transition: transform 0.4s ease,
+                opacity 0.3s ease;
+}
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+}
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.5px;
+    width: 0;
+    height: 1px;
+    background:#2d4c5c;
+    transition: 0.3s;
+}
+.nav-links a:hover::after {
+    width: 100%;
+}
+.nav-links { 
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.nav-brand img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.nav-action,
+.nav-brand,
+.nav-menu { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;  
+}
+.icon:hover {
+    opacity: 0.6;
+}
+
+
+/* product hero card */
+
+.hero-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;          /* Choose the height you want */
+    object-fit: cover;
+    
+}
+
+.hero-card:hover img {
+    transform: scale(1.1);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: fit-content;
+    background-color: rgb(250, 244, 235);
+    padding: 60px;
+}
+
+.hero-content p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 500px;
+    margin-bottom: 30px;
+    font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+    
+}
+.hero-content h2 {
+    margin-bottom: 20px;
+}
+
+/* category tabs */
+
+#category-tabs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.category-btn {
+    padding: 12px 36px;
+    border: 1px solid rgb(35, 23, 5);
+    border-radius: 999px;
+    text-decoration: none;
+    transition: .3s;
+    background-color: rgb(250, 247, 241);
+}
+.category-btn.active {
+    background-color: rgb(252, 236, 201);
+}
+
+.category-btn:hover {
+    background-color: rgb(252, 236, 201);
+}
+
+.shop-toolbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-grid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: #f8f4ee;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.product-card-image {
+    aspect-ratio: 4/5;
+    background: #f5f1ea;
+}
+
+.product-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-card-info {
+  padding: 24px;
+}
+
+@media (max-width: 900px) {
+  .products-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+}

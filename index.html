@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teen Wishes Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
+</head>
+<body>
+    <!-- ===============NavBar=============================-->
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                     <!-- nav left-->
+                    <nav class="nav-menu">
+                        <ul class="nav-links">
+                            <li> <a href="products.html">Shop</a></li>
+                            <li> <a href="#">About</a></li>
+                            <li> <a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- nav center -->
+                    <div class="nav-brand">
+                         <a href="#" class="logo"><img src="images/logo.JPG" alt="Teens Wishes"></a>
+                    </div>    
+            
+            
+                     <!-- nav right-->
+                    <div class="nav-action">
+                        <a href="#" class="icon">
+                            <i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="#" class="icon">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </header> 
+    <!--==============Hero section===================-->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-card">
+                <div class="hero-image">
+                     <img src="images/hero.JPG" alt="hero">
+                </div>
+                <div class="hero-content">
+                    <h2>TEENS WISHES</h2>
+                    <p>Comfort • Softness • Colorful Everyday Feminine Life</p>
+                    <p>နေ့စဉ်ဘဝအတွက် နူးညံ့သက်တောင့်သက်သာမှုနှင့် အရောင်အသွေးစုံလင်မှု </p>
+                    <a href="products.html" class="hero-btn">Shop now</a>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!-- =============New Arrivals=================== -->
+    <section id="newArrivals">
+        <div class="container">
+            <h2>New Arrivals</h2>
+            <div class="newArrivals-card">
+                <div class="arrival-img">
+                    <img id="productImg" alt="">
+                </div>
+                <div class="newArrivals-content">
+                     <h2 id="productName"></h2>
+                     <p id="productDes"></p>
+                     <!-- <p id="productPrice"></p> -->
+                     <div class="move-btn">
+                        <button id="arrowBack" class="abtn"> ← </button>
+                        <button id="arrowNext" class="abtn"> → </button>
+                     </div>
+                    
+            
+                      <!-- atc = add to cart button with link to product detail -->
+                     <a href="detail.html" class="viewItem-btn">View Item</a>
+                     <p id="productCounter"></p>
+                </div>
+               
+            </div>  
+        </div>
+
+    </section>
+    <!--==============Categories section=============-->
+        <section id="categories">
+            <div class="container">
+                <h2>Category</h2>
+
+                <div class="category-grid">
+                    <a href="tops.html" class="category-card">
+                        <div class="category-image category-slider">
+                            <img src="images/top1.JPG" alt="Tops">
+                            <img src="images/top2.JPG" alt="Tops">
+                            <img src="images/top3.JPG" alt="Tops">
+                            <img src="images/top4.JPG" alt="Tops">
+                        </div>
+                        <div class="category-content"><h3>Tops</h3></div>
+                    </a>
+
+                    <a href="buttoms.html" class="category-card">
+                        <div class="category-image category-slider">
+                            <img src="images/b1.JPG" alt="Buttoms">
+                            <img src="images/b2.JPG" alt="Buttoms">
+                            <img src="images/b3.JPG" alt="Buttoms">
+                            <img src="images/b4.JPG" alt="Buttoms">
+                        </div>
+                        <div class="category-content"><h3>Buttoms</h3></div>
+                    </a>
+
+                    <a href="dresses.html" class="category-card">
+                        <div class="category-image category-slider">
+                            <img src="images/set1.JPG" alt="Sets">
+                            <img src="images/set2.JPG" alt="Sets">
+                            <img src="images/set3.JPG" alt="Sets">
+                            <img src="images/set4.JPG" alt="Sets">
+                        </div>
+                        <div class="category-content"><h3>Dresses</h3></div>
+                    </a>
+                </div>
+            </div>
+        </section> 
+        
+
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+  
+</body>
+</html>
