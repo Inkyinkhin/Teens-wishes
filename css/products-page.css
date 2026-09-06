@@ -1,6 +1,7 @@
 body {
     margin: 0;
     color: #2d4c5c; 
+
 }
 
 a {
@@ -28,18 +29,6 @@ header {
     width: 100%;
     
 }
-/* .header.transparent .navbar {
-    background: transparent;
-    border: #666;
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
-}
-.header.scrolled .navbar {
-    background: rgba(243, 244, 232, 0.75);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-} */
-
 
 /* navbar and its children */
 .navbar {
@@ -124,7 +113,7 @@ header {
     flex-direction: column;
     justify-content: flex-end;
     width: fit-content;
-    background-color: rgb(250, 244, 235);
+    background-color: rgb(251, 252, 242);
     padding: 60px;
 }
 
@@ -155,14 +144,14 @@ header {
     border-radius: 999px;
     text-decoration: none;
     transition: .3s;
-    background-color: rgb(250, 247, 241);
+    background-color: rgb(251, 252, 242);
 }
 .category-btn.active {
-    background-color: rgb(252, 236, 201);
+    background-color: rgb(230, 244, 247);
 }
 
 .category-btn:hover {
-    background-color: rgb(252, 236, 201);
+    background-color: rgb(230, 244, 247);
 }
 
 .shop-toolbar {
@@ -180,13 +169,13 @@ header {
     display: block;
     text-decoration: none;
     color: inherit;
-    background: #f8f4ee;
+    background: rgb(251, 252, 242);
     border-radius: 18px;
     overflow: hidden;
 }
 .product-card-image {
     aspect-ratio: 4/5;
-    background: #f5f1ea;
+    
 }
 
 .product-card-image img {
@@ -210,3 +199,35 @@ header {
     grid-template-columns: 1fr;
   }
 }
+
+/* Contact footer */
+
+.contact-menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    background-color: rgb(230, 244, 247);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.contact-menu a{
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.footer-logo img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.shop-links, .followUs-links, .reachUs-links{
+    list-style: none;
+    padding: 10px 0;
+}
+
+

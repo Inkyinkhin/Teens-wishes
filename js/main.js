@@ -58,7 +58,7 @@ let currentIndex = 0;
 
 const newArrivalProducts = products.filter(product => product.status === "new-arrival");
 
-console.log(newArrivalProducts.length);
+console.log(newArrivalProducts.length);//check if it is work
 const checkArrival = newArrivalProducts.length > 0 ;
 if (checkArrival){
     renderNewArrival();
