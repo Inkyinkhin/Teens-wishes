@@ -58,7 +58,10 @@ let currentIndex = 0;
 
 const newArrivalProducts = products.filter(product => product.status === "new-arrival");
 
+const viewItemBtn = document.querySelector(".viewItem-btn");
+
 console.log(newArrivalProducts.length);//check if it is work
+
 const checkArrival = newArrivalProducts.length > 0 ;
 if (checkArrival){
     renderNewArrival();
@@ -75,6 +78,8 @@ function renderNewArrival(){
     document.querySelector("#productDes").textContent = product.description;
     // document.querySelector("#productPrice").textContent = `Price : ${product.price} MMK`;
     document.querySelector("#productCounter").textContent = `${currentIndex+1}/${newArrivalProducts.length}`
+
+    viewItemBtn.href = `product-detail.html?id=${product.id}`;
 
 }
 

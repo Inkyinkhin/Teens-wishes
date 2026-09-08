@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teen Wishes Website</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product-detail.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
 </head>
 <body>
@@ -16,14 +16,14 @@
                     <nav class="nav-menu">
                         <ul class="nav-links">
                             <li> <a href="products-page.html">Shop</a></li>
-                            <li> <a href="#about">About</a></li>
+                            <li> <a href="index.html#about">About</a></li>
                             <li> <a href="#contact">Contact</a></li>
                         </ul>
                     </nav>
 
                     <!-- nav center -->
                     <div class="nav-brand">
-                         <a href="#" class="logo"><img src="images/logo.JPG" alt="Teens Wishes"></a>
+                         <a href="index.html" class="logo"><img src="images/logo.JPG" alt="Teens Wishes"></a>
                     </div>    
             
             
@@ -38,26 +38,54 @@
                 </div>
         </div>
     </header> 
-    <section id="product-detail">
-        <div class="product-card">
-            <h2 id="product-name"></h2>
-            <
-        </div>
-    </section>
+
+
+
+    <!-- Product details Section -->
+     <main>
+        <section id="product-detail">
+            <div class="container">
+                <div class="product-detail-grid">
+                     <div class="product-image">
+                        <img id="productImg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h1 id="productName"></h1>
+                        <p id="productDes"></p>
+                        <p id="productPrice"></p>
+                        <div class="color-selector">
+                            <h3>Available Colors</h3>
+                            <div id="colorOptions" class="color-options">
+                            </div>
+                        </div>
+                        <div class="size-selector">
+                            <h3>Size</h3>
+                            <div id="sizeOptions" class="size-options">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     </main>
+     
   
+
+
+
 <!-- footer -->
     <footer id="contact">
         <div class="container">
             <div class="contact-menu">
                  <div class="footer-logo">
-                    <a href="#" class="logo"><img src="images/logo.JPG" alt="Teens Wishes">
+                    <a href="index.html" class="logo"><img src="images/logo.JPG" alt="Teens Wishes">
                          <p>Teen Wishes</p>
                     </a>
                 </div>
                 <div class="shop">
                     <h3>Shop</h3>
                    <ul class="shop-links">
-                        <li><a href="#about">About us</a></li>
+                        <li><a href="index.html#about">About us</a></li>
                         <li><a href="#faqs">FAQs</a></li>
                         <li><a href="products-page.html">All Products</a></li>
                    </ul>
@@ -81,15 +109,10 @@
 
     </footer>
 
-
-
-
-
-
         
-
     <script src="js/products.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/product-detail.js"></script>
+    
   
 </body>
 </html>
