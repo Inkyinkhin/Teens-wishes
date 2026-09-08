@@ -815,6 +815,7 @@ const products = [
     variants: [
     {
         color: "Black",
+        colorValue: "#171717",
         image: "images/tops/NSLT/black.JPG",
         sizes: [
             { size: "M", stock: 1 },
@@ -822,6 +823,7 @@ const products = [
     },
     {
         color: "Blue",
+        colorValue: "#8FAED6",
         image: "images/tops/NSLT/blue.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -829,6 +831,7 @@ const products = [
     },
     {
         color: "Brown",
+        colorValue: "#79483E",
         image: "images/tops/NSLT/brown.JPG",
         sizes: [
             { size: "M", stock: 1 },
@@ -836,6 +839,7 @@ const products = [
     },
     {
         color: "Pink",
+        colorValue: "#f8adc9",
         image: "images/tops/NSLT/pink.JPG",
         sizes: [
             { size: "M", stock: 3 },
@@ -843,6 +847,7 @@ const products = [
     },
     {
         color: "Red",
+        colorValue: "#d22929",
         image: "images/tops/NSLT/red.JPG",
         sizes: [
             { size: "M", stock: 3 },
@@ -850,6 +855,7 @@ const products = [
     },
     {
         color: "White",
+        colorValue: "#fffbfb",
         image: "images/tops/NSLT/white.JPG",
         sizes: [
             { size: "M", stock: 1 },
@@ -876,6 +882,7 @@ const products = [
     variants: [
     {
         color: "Black",
+        colorValue: "#171717",
         image: "images/tops/ORT/black.JPG",
         sizes: [
             { size: "M", stock: 2 },
@@ -883,6 +890,7 @@ const products = [
     },
     {
         color: "Ivory",
+        colorValue: "#F3F0DE",
         image: "images/tops/ORT/ivory.JPG",
         sizes: [
             { size: "M", stock: 1 },
@@ -890,6 +898,7 @@ const products = [
     },
     {
         color: "Navy",
+        colorValue: "#29384F",
         image: "images/tops/ORT/navy.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -897,6 +906,7 @@ const products = [
     },
     {
         color: "Purple",
+        colorValue: "#8b5ea4",
         image: "images/tops/ORT/purple.JPG",
         sizes: [
             { size: "M", stock: 1 },
@@ -904,6 +914,7 @@ const products = [
     },
     {
         color: "Red",
+        colorValue: "#c52d2d",
         image: "images/tops/ORT/red.JPG",
         sizes: [
             { size: "M", stock: 3 },
@@ -911,6 +922,7 @@ const products = [
     },
     {
         color: "White",
+        colorValue: "#F7F7F4",
         image: "images/tops/ORT/white.JPG",
         sizes: [
             { size: "M", stock: 1 },
@@ -918,6 +930,7 @@ const products = [
     },
     {
         color: "Yellow",
+        colorValue: "#f9e29e",
         image: "images/tops/ORT/yellow.JPG",
         sizes: [
             { size: "M", stock: 2 },
@@ -944,6 +957,7 @@ const products = [
     variants: [
     {
         color: "Black",
+        colorValue: "#171717",
         image: "images/bottoms/LWP/black.JPG",
         sizes: [
             { size: "M", stock: 2 },
@@ -951,6 +965,7 @@ const products = [
     },
     {
         color: "Ivory",
+        colorValue: "#F3F0DE",
         image: "images/bottoms/LWP/ivory.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -958,6 +973,7 @@ const products = [
     },
     {
         color: "Navy",
+        colorValue: "#29384F",
         image: "images/bottoms/LWP/navy.JPG",
         sizes: [
             { size: "M", stock: 1 },
@@ -965,6 +981,7 @@ const products = [
     },
     {
         color: "Red",
+        colorValue: "#de2c2c",
         image: "images/bottoms/LWP/red.JPG",
         sizes: [
             { size: "M", stock: 3 },
@@ -972,6 +989,7 @@ const products = [
     },
     {
         color: "White",
+        colorValue: "#F7F7F4",
         image: "images/bottoms/LWP/white.JPG",
         sizes: [
             { size: "M", stock: 1 },
@@ -998,6 +1016,7 @@ const products = [
     variants: [
     {
         color: "Avocado",
+        colorValue: "#A8B99A",
         image: "images/bottoms/SFP/avocado.JPG",
         sizes: [
             { size: "M", stock: 2 },
@@ -1005,6 +1024,7 @@ const products = [
     },
     {
         color: "Ivory",
+        colorValue: "#F3F0DE",
         image: "images/bottoms/SFP/ivory.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1012,6 +1032,7 @@ const products = [
     },
     {
         color: "Yellow",
+        colorValue: "#f2dc94",
         image: "images/bottoms/SFP/yellow.JPG",
         sizes: [
             { size: "M", stock: 1 },
@@ -1037,6 +1058,7 @@ const products = [
     variants: [
     {
         color: "White",
+        colorValue: "#F7F7F4",
         image: "images/bottoms/ISP/white.JPG",
         sizes: [
             { size: "M", stock: 2 },
@@ -1064,6 +1086,7 @@ const products = [
     variants: [
     {
         color: "White",
+        colorValue: "#F7F7f4",
         image: "images/bottoms/LLWS/white.JPG",
         sizes: [
             { size: "M", stock: 2 },
@@ -1071,6 +1094,7 @@ const products = [
     },
     {
         color: "Black",
+        colorValue: "#171717",
         image: "images/bottoms/LLWS/black.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1097,6 +1121,7 @@ const products = [
     variants: [
     {
         color: "Avocado",
+        colorValue: "#A8B99A",
         image: "images/dresses/SLD/avocado.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1104,6 +1129,7 @@ const products = [
     },
     {
         color: "Blue",
+        colorValue: "#8FAED6",
         image: "images/dresses/SLD/blue.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1111,6 +1137,7 @@ const products = [
     },
     {
         color: "Brown",
+        colorValue: "#79483E",
         image: "images/dresses/SLD/brown.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1118,6 +1145,7 @@ const products = [
     },
     {
         color: "Pink",
+        colorValue: "#fda9e1",
         image: "images/dresses/SLD/pink.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1125,6 +1153,7 @@ const products = [
     },
     {
         color: "Red",
+        colorValue: "#c71717",
         image: "images/dresses/SLD/red.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1151,6 +1180,7 @@ const products = [
     variants: [
     {
         color: "Black",
+        colorValue: "#171717",
         image: "images/dresses/FLD/black.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1158,6 +1188,7 @@ const products = [
     },
     {
         color: "Pink",
+        colorValue: "#fda9e1",
         image: "images/dresses/FLD/pink.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1165,6 +1196,7 @@ const products = [
     },
     {
         color: "Red",
+        colorValue: "#d41818",
         image: "images/dresses/FLD/red.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1172,6 +1204,7 @@ const products = [
     },
     {
         color: "Yellow",
+        colorValue: "#fdeeab",
         image: "images/dresses/FLD/yellow.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1198,6 +1231,7 @@ const products = [
     variants: [
     {
         color: "Blue",
+        colorValue: "#8FAED6",
         image: "images/sets/CS/blue.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1205,6 +1239,7 @@ const products = [
     },
     {
         color: "Brown",
+        colorValue: "#79483E",
         image: "images/sets/CS/brown.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1212,13 +1247,15 @@ const products = [
     },
     {
         color: "Pink",
+        colorValue: "#fda9e1",
         image: "images/sets/CS/pink.JPG",
         sizes: [
             { size: "M", stock: 0 },
             { size: "L", stock: 1 }]
     },
     {
-        color: "Wheat",
+        color: "Cream",
+        colorValue: "#F2EEE1",
         image: "images/sets/CS/wheat.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1227,6 +1264,7 @@ const products = [
 
     {
         color: "Yellow",
+        colorValue: "#f6e3a5",
         image: "images/sets/CS/yellow.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1253,6 +1291,7 @@ const products = [
     variants: [
     {
         color: "Black",
+        colorValue: "#171717",
         image: "images/sets/PS/black.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1260,6 +1299,7 @@ const products = [
     },
     {
         color: "Pink",
+        colorValue: "#fda9e1",
         image: "images/sets/PS/pink.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1267,13 +1307,15 @@ const products = [
     },
     {
         color: "Red",
+        colorValue: "#df1717",
         image: "images/sets/PS/red.JPG",
         sizes: [
             { size: "M", stock: 0 },
             { size: "L", stock: 1 }]
     },
     {
-        color: "Wheat",
+        color: "Cream",
+        colorValue: "#F2EEE1",
         image: "images/sets/PS/wheat.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1282,6 +1324,7 @@ const products = [
 
     {
         color: "White",
+        colorValue: "#F7F7F4",
         image: "images/sets/PS/white.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1308,6 +1351,7 @@ const products = [
     variants: [
     {
         color: "Avocado",
+        colorValue: "#A8B99A",
         image: "images/sets/OS/avocado.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1315,6 +1359,7 @@ const products = [
     },
     {
         color: "Navy",
+        colorValue: "#29384F",
         image: "images/sets/OS/navy.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1322,6 +1367,7 @@ const products = [
     },
     {
         color: "Orange",
+        colorValue: "#f57a49",
         image: "images/sets/OS/orange.JPG",
         sizes: [
             { size: "M", stock: 0 },
@@ -1329,6 +1375,7 @@ const products = [
     },
     {
         color: "White",
+        colorValue: "#F7F7F4",
         image: "images/sets/OS/white.JPG",
         sizes: [
             { size: "M", stock: 0 },
