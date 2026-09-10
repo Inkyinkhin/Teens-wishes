@@ -39,14 +39,24 @@
         </div>
     </header> 
 
+    <!-- breadcrumb -->
 
+    <div class="container">
+        <nav class="breadcrumb" aria-label="breadcrumb">
+            <a href="index.html">Home</a>
+            <span> > </span>
+            <a href="products-page.html">Shop</a>
+            <span> > </span>
+            <span id="breadcrumbProduct"></span>
+        </nav>
+    </div>
 
     <!-- Product details Section -->
-     <main>
+    <main>
         <section id="product-detail">
             <div class="container">
                 <div class="product-detail-grid">
-                     <div class="product-image">
+                    <div class="product-image">
                         <img id="productImg" alt="">
                     </div>
                     <div class="product-info">
@@ -60,14 +70,19 @@
                         </div>
                         <div class="size-selector">
                             <h3>Size</h3>
-                            <div id="sizeOptions" class="size-options">
-                            </div>
+                            <div id="sizeOptions" class="size-options"></div>
+                            <p id="stockMessage" class="stock-message"></p>
                         </div>
+                        <h3>Fabric:</h3>
+                        <p id="productFabric"></p>
+                        <h3>Care Instruction:</h3>
+                        <p id="productCare"></p>
+                        <p id="productCategory"></p>
                     </div>
                 </div>
             </div>
         </section>
-     </main>
+    </main>
      
   
 
